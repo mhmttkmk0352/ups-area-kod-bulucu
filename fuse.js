@@ -13,3 +13,5 @@ const fuse = new fuseJS(area.Area, options);
 const result = fuse.search( process.argv[2] );
 
 console.log( result[0] );
+console.log( result[1] );
+console.log( result[2] );
